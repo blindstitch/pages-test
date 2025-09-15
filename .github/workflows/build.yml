@@ -3,7 +3,8 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
+  schedule:
+    - cron: '*/5 * * * *' # every 5 mins - don't leave this way forever!
 permissions:
   contents: read
   pages: write
