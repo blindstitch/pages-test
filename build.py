@@ -11,5 +11,5 @@ See the repository at <a href="https://github.com/blindstitch/pages-test">https:
 '''
 
 outfile = open('index.html','w')
-outfile.write(')
+outfile.write(out)
 outfile.close()
